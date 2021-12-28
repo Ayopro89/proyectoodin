@@ -1,0 +1,201 @@
+
+@font-face {
+    font-family: "open-sans";
+    src: url(../../Downloads/OpenSans-LightItalic.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.botonheader{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #1f2937;
+   
+}
+.imglogo{
+    max-width: 100px;
+}
+.barra{
+    display: flex;
+}
+.logo{
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.contenedorderecho{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+}
+.left-header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  flex-direction: column;
+  padding: 15px 15px 15px 0;
+}
+h1{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.text-header{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.imgheader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.caravana{
+    padding-bottom: 50px;
+}
+.contenido{
+
+    display: flex;
+flex-wrap: wrap;
+
+}
+h2{
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrados{
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.img1{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+.c1, .c2, .c3, .c4{
+    margin: 30px;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.testimonio{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.by{
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.text-testimonio{
+    font-size: 36px;
+   font-family: "open-sans-light-italic";
+   color: #1f2937;
+  font-family: "open-sans";
+}
+
+.action{
+    background-color: #3882f6;
+    margin: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+border-radius: 15px;
+height: 100px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.boton{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.boton-testimonio{
+    margin-left: 100px;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+p{
+    margin: 0;
+}
+
+.footer{
+    color: white;
+    background-color: #1f2937;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
